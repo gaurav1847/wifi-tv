@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi Reset TV</string>
+
+    <!-- Button labels -->
+    <string name="btn_forget_wifi">Forget All WiFi Networks</string>
+    <string name="btn_network_reset">Reset Network Settings</string>
+    <string name="btn_factory_wifi">Full WiFi Factory Reset</string>
+
+    <!-- Status messages -->
+    <string name="status_ready">Ready. Select an action using D-pad or remote control.</string>
+    <string name="status_checking_root">Checking root access…</string>
+    <string name="status_root_ok">✅ Root access confirmed. All features available.</string>
+    <string name="status_root_fail">❌ Root access denied. Please grant Superuser permission.</string>
+    <string name="status_forgetting">Removing all saved WiFi networks…</string>
+    <string name="status_forget_done">✅ All WiFi networks have been forgotten successfully.</string>
+    <string name="status_forget_fail">❌ Failed to forget WiFi networks. Check root permissions.</string>
+    <string name="status_resetting_network">Resetting all network settings…</string>
+    <string name="status_reset_network_done">✅ Network settings reset successfully.</string>
+    <string name="status_reset_network_fail">❌ Failed to reset network settings.</string>
+    <string name="status_factory_reset">Performing full WiFi factory reset…</string>
+    <string name="status_factory_done">✅ Full WiFi factory reset completed. Device will restart network stack.</string>
+    <string name="status_factory_fail">❌ Full WiFi factory reset failed. Check root permissions.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>
